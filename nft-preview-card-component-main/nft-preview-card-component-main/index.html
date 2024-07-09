@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(217, 54%, 11%) ;
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      width: 400px;
+      margin: auto;
+      height: 720;
+      flex-direction: column;
+      background-color: hsl(216, 50%, 16%);
+      align-items: center;
+      margin-top: 100px;
+      border-radius: 15px;
+      padding: 25px 0 55px 0;
+      font-family: "Outfit", sans-serif;
+      box-shadow: 0 30px 35px rgb(1, 1, 16) ;
+    }
+
+    .imagem img{
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+    }
+
+    .texto h1{
+      color: #fff;
+      margin-left: 28px;
+      
+    }
+
+    .texto h2{
+      color: gray;
+      font-weight: 180;
+      font-size: 20px;
+      margin-left: 28px;
+    }
+
+    .escrita{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .escrita p{
+      color: hsl(178, 100%, 50%);
+    }
+      
+    
+
+    .relogio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+    }
+
+    .relogio p{
+      color: gray;
+    }
+
+    .tudo{
+      display: flex;
+      flex-direction: row;
+      gap: 145px;
+      border-bottom: 1px solid gray;
+      padding-bottom: 15px;
+    }
+
+    .imagine p{
+      color: gray;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .imagine span{
+      color: white;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .imagine img{
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      border: 1px solid white;
+      margin-top: 10px;
+      margin-left: -90px;
+    }
+
+    .imagine{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      
+    }
+
+
+    .attribution { font-size: 11px; text-align: center;
+                    margin-top: 100px; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    
+  </style>
+</head>
+<body>
+
+  <section class="container">
+    <div class="imagem">
+      <img src="images/image-equilibrium.jpg" alt="">
+    </div>
+
+    <div class="texto">
+      <h1>Equilibrium #3429</h1>
+      <h2>Our Equilibrium collection promotes balance and calm.</h2>
+
+    </div>
+
+    <div class="tudo">
+
+      <div class="escrita">
+        <img src="images/icon-ethereum.svg" alt="">
+        <p>0.041 ETH</p>
+      </div>
+
+      <div class="relogio">
+        <img src="images/icon-clock.svg" alt="">
+        <p> 3 days left</p>
+      </div>
+
+    </div>
+
+    <div class="imagine">
+      <img src="images/image-avatar.png" alt="">
+      <p>Creation of <span>Jules Wyvern</span></p>
+    </div>
+
+  </section>
+
+
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
